@@ -1,0 +1,291 @@
+.video-preview {
+  width: 100%;
+}
+.div1 {
+  display: inline-block;
+  width: 100%;
+}
+.video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 17px;
+  row-gap: 40px;
+}
+
+body {
+  padding-bottom: 1000px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+.youtube-Image {
+  width: 150px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.title-Youtube {
+  color: black;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-left: 55px;
+}
+.icon {
+  width: 50px;
+}
+.header {
+  position: fixed;
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  height: 70px;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.position-header {
+  margin-top: 7px;
+  /* height: ; */
+}
+.mic-input {
+  position: absolute;
+  width: 25px;
+  opacity: 80%;
+  margin-left: 55px;
+  border: none;
+  background: rgb(190, 190, 190);
+  padding: 7px 7px 7px 7px;
+  border-radius: 24px;
+}
+.search-div {
+  position: absolute;
+  display: inline-block;
+  margin-left: -7px;
+}
+.channal-div {
+  display: inline-block;
+  position: absolute;
+  margin-left: 20em;
+}
+.input-search {
+  /* max-width: 400px; */
+  min-width: 50px; 
+}
+/* .Voice-Image {
+
+} */
+
+
+
+
+.sidebar {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 90px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  box-shadow: -4px 5px 10px black;
+}
+.side-bar-link {
+  width: 90px;
+  height: 80px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: roboto;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.header-second {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  box-shadow: 3px -15px 25px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Hamburger {
+  width: 30px;
+  margin-left: 15px;
+}
+.youtube-Main {
+  width: 50px;
+  display: inline-block;
+}
+.Name-youtube {
+  color: black;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: bold;
+  display: inline-block;
+}
+.youtube-title {
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin-right: 40px;
+  flex: 1;
+}
+.search-icon {
+  width: 16px;
+  background: rgb(216, 216, 216);
+  padding: 10px 20px 11px 20px;
+  border: 1px solid rgb(168, 168, 168);
+  margin-left: -7px;
+}
+input {
+  flex: 1;
+  height: 35px;
+  min-width: 100px;
+  background: rgb(248, 248, 248);
+  border: 1px solid rgb(168, 168, 168);
+  font-size: 15px;
+  font-family: roboto;
+  padding-left: 11px;
+}input::placeholder {
+  font-size: 15px;
+  font-family: roboto;
+}
+.end-justify {
+  width:30px;
+}
+.voice-icon {
+  width: 15px;
+  margin-left: 20px;
+  border: none;
+  background: rgb(245, 245, 245);
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.App-ring {
+  width: 25px;
+}
+.About-channal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+.Title-Nested {
+  margin-top: 10px;
+  display: flex;
+}
+.Main-Image {
+  width: 50px;
+  border-radius: 25px;
+}
+.Channal-Image {
+  display: inline-block;
+  vertical-align: top;
+}
+.Tilte-Info {
+  display: inline-block;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 240px;
+  vertical-align: top;
+}
+.About-Topic {
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  margin-top: 0;
+}
+.Title-Nested {
+  width: 100%;
+}
+.NameOfContent {
+  color: rgb(71, 71, 71);
+  font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.Time {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(71, 71, 71);
+  font-weight: 500;
+}
+
+
+
+@media (max-width: 800px) {
+  .video {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 40px;
+  }
+  input {
+    display: none;
+  }
+  .search-icon {
+    justify-content: center;
+  }
+}
+
+
+
+@media (max-width: 625px) {
+  .About-channal {
+    flex-shrink: 10;
+  }
+  .search-bar {
+    max-width: 100px;
+  }
+}
+
+
+
+@media (max-width: 550px) {
+  .video {
+      grid-template-columns: 1fr;
+      row-gap: 40px;
+  }
+  .input-search {
+    display: none;
+  }
+  .App-ring {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  body {
+    padding-left: 18px;
+  }
+}
